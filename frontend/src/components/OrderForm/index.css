@@ -1,0 +1,67 @@
+.order-form-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f3f8f5;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-form h2 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .order-form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .order-form input,
+  .order-form textarea,
+  .order-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product-select-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .product-select-group input {
+    width: 100px;
+  }
+  
+  .add-item-btn {
+    margin-top: 15px;
+    padding: 8px 12px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .submit-btn {
+    margin-top: 20px;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2980b9;
+  }
+  
